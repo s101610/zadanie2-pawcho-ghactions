@@ -1,5 +1,11 @@
 ## Zadanie 2 – GitHub Actions, GHCR, cache DockerHub i test CVE
 
+### Link do uruchomienia workflow
+
+```text
+https://github.com/s101610/zadanie2-pawcho-ghactions/actions/runs/26696598612
+```
+
 ### Aplikacja testowa
 
 W projekcie znajduje się prosta aplikacja napisana w Go. Uruchamia ona serwer HTTP na porcie `8080` i udostępnia dwa endpointy:
