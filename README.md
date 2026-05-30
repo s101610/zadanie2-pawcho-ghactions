@@ -1,5 +1,17 @@
 ## Zadanie 2 – GitHub Actions, GHCR, cache DockerHub i test CVE
 
+### Link do repozytorium GitHub
+
+```text
+https://github.com/s101610/zadanie2-pawcho-ghactions
+```
+
+### Link do repozytorium DockerHub
+
+```text
+https://hub.docker.com/repository/docker/s101610/zadanie2-cache/general
+```
+
 ### Link do uruchomienia workflow
 
 ```text
@@ -52,3 +64,4 @@ Zmienne `TARGETOS` i `TARGETARCH` są przekazywane przez BuildKit, dlatego ten s
 ### Podsumowanie
 
 Przygotowane rozwiązanie spełnia wymagania zadania. Workflow buduje obraz dla architektur `linux/amd64` i `linux/arm64`, korzysta z cache w DockerHub, wykonuje skan CVE dla podatności `HIGH` i `CRITICAL`, a następnie publikuje obraz do GHCR tylko wtedy, gdy test bezpieczeństwa zakończy się poprawnie. Obraz jest tagowany na podstawie commita lub tagów SemVer, bez używania niejednoznacznego tagu `latest`.
+
