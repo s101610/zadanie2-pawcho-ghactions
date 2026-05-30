@@ -38,7 +38,7 @@ jobs:
           fi
 
           echo "image=ghcr.io/${GITHUB_REPOSITORY,,}" >> "$GITHUB_OUTPUT"
-          echo "cache=docker.io/${DOCKERHUB_USERNAME,,}/pawcho-task2-cache" >> "$GITHUB_OUTPUT"
+          echo "cache=docker.io/${DOCKERHUB_USERNAME,,}/zadanie2-cache" >> "$GITHUB_OUTPUT"
 
       - name: Enable QEMU emulation
         uses: docker/setup-qemu-action@v4
@@ -124,7 +124,7 @@ jobs:
           fi
 
           echo "image=ghcr.io/${GITHUB_REPOSITORY,,}" >> "$GITHUB_OUTPUT"
-          echo "cache=docker.io/${DOCKERHUB_USERNAME,,}/pawcho-task2-cache" >> "$GITHUB_OUTPUT"
+          echo "cache=docker.io/${DOCKERHUB_USERNAME,,}/zadanie2-cache" >> "$GITHUB_OUTPUT"
 
       - name: Enable QEMU emulation
         uses: docker/setup-qemu-action@v4
