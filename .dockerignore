@@ -1,0 +1,12 @@
+.git
+.github
+.trivy-cache
+.cache
+screenshots
+*.md
+*.pdf
+*.zip
+node_modules
+.env
+.env.*
+Dockerfile.*

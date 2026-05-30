@@ -1,0 +1,6 @@
+.trivy-cache/
+.cache/
+*.log
+.DS_Store
+.env
+.env.*
